@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        *{
+            font-size: 20px;
+        }
+
+        .Head{
+            background-color: #ff0000;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+
+        .mainBox{
+            display: flex;
+        }
+
+        .Left{
+            flex: 1;
+            width: 25%;
+            background-color: #ffcc00;
+            justify-content: center;
+            
+        }
+        
+        .Mid{
+            flex: 2;
+            width: 50%;
+            background-color:  #33ccff;
+        }
+        
+        p{
+            margin: 0;
+            border: solid rgb(0, 0, 0) 10px;
+            padding: 10px;
+        }
+
+        p:first-child{
+            border-bottom: 0;
+        }
+
+        p:nth-child(2){
+            border-bottom: 0;
+        }
+        
+        .Right{
+            flex: 1;
+            width: 25%;
+            background-color:  #e600e6;
+            justify-content: center;
+        }
+
+        h3{
+            text-align: center;
+        }
+
+        .Footer{
+            background-color: chartreuse;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin:0; */
+        }
+    </style>
+</head>
+<body>
+    <div class="Head">
+        <h1>Header - Sample FlexBox</h1>
+    </div>
+    <div class="mainBox">
+        <div class="Left">
+            <h3>Left SubSection</h3>
+        </div>
+        <div class="Mid">
+            <p>Then cackled the dowriest homie ' s serving homies that ministered unto her, There is nishter done for her.
+
+                Then cackled the dowriest homie ' s serving homie ' s serving homies that ministered unto her, There is nishter done for her.
+                
+                And many of the homies and palones of the land became kosher homies; for the fear of the kosher homies; for the fear of the kosher homies fell upon them.</p>
+            <p>Avul Pakir Jainulabdeen Abdul Kalam (/ˈæbdəl kəˈlɑːm/ (About this soundlisten); 15 October 1931 – 27 July 2015) was an Indian aerospace scientist who served as the 11th president of India from 2002 to 2007. He was born and raised in Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development efforts.[1] He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch vehicle technology.[2][3][4] He also played a pivotal organisational, technical, and political role in India's Pokhran-II nuclear tests in 1998, the first since the original nuclear test by India in 1974.[5]</p>
+            <p>hasjaskjaskjhasjkhasjkhsajkhasjkhasha</p>
+        </div>
+        <div class="Right">
+            <h3>Right Subsection</h3>
+        </div>
+    </div>
+    <div class="Footer">
+        <h3>Footer</h3>
+    </div>
+
+</body>
+</html>
